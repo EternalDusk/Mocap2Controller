@@ -7,7 +7,7 @@ mp_holistic = mp.solutions.holistic
 dot_specs = mp_drawing.DrawingSpec(color=(0,0,255), thickness=2, circle_radius=4)
 connection_specs = mp_drawing.DrawingSpec(color=(255,0,0), thickness=4, circle_radius=2)
 
-cap = cv2.VideoCapture(3) #webcam 3 start 0
+cap = cv2.VideoCapture(0) #webcam 3 start 0
 
 cap.set(3, 1920)
 cap.set(4, 1280)
